@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F462CAA427DC903C000EB2D1 /* MyFirstAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462CAA327DC903C000EB2D1 /* MyFirstAppApp.swift */; };
+		F462CAA427DC903C000EB2D1 /* counterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462CAA327DC903C000EB2D1 /* counterApp.swift */; };
 		F462CAA627DC903C000EB2D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462CAA527DC903C000EB2D1 /* ContentView.swift */; };
 		F462CAA827DC9041000EB2D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F462CAA727DC9041000EB2D1 /* Assets.xcassets */; };
 		F462CAAB27DC9041000EB2D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F462CAAA27DC9041000EB2D1 /* Preview Assets.xcassets */; };
-		F462CAB527DC9041000EB2D1 /* MyFirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462CAB427DC9041000EB2D1 /* MyFirstAppTests.swift */; };
-		F462CABF27DC9041000EB2D1 /* MyFirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462CABE27DC9041000EB2D1 /* MyFirstAppUITests.swift */; };
-		F462CAC127DC9041000EB2D1 /* MyFirstAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462CAC027DC9041000EB2D1 /* MyFirstAppUITestsLaunchTests.swift */; };
+		F462CAB527DC9041000EB2D1 /* counterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462CAB427DC9041000EB2D1 /* counterTests.swift */; };
+		F462CABF27DC9041000EB2D1 /* counterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462CABE27DC9041000EB2D1 /* counterTests.swift */; };
+		F462CAC127DC9041000EB2D1 /* counterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462CAC027DC9041000EB2D1 /* counterUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +34,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F462CAA027DC903C000EB2D1 /* MyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F462CAA327DC903C000EB2D1 /* MyFirstAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppApp.swift; sourceTree = "<group>"; };
+		F462CAA027DC903C000EB2D1 /* counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F462CAA327DC903C000EB2D1 /* counterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counterApp.swift; sourceTree = "<group>"; };
 		F462CAA527DC903C000EB2D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F462CAA727DC9041000EB2D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F462CAAA27DC9041000EB2D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F462CAB027DC9041000EB2D1 /* MyFirstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F462CAB427DC9041000EB2D1 /* MyFirstAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppTests.swift; sourceTree = "<group>"; };
-		F462CABA27DC9041000EB2D1 /* MyFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F462CABE27DC9041000EB2D1 /* MyFirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppUITests.swift; sourceTree = "<group>"; };
-		F462CAC027DC9041000EB2D1 /* MyFirstAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F462CAB027DC9041000EB2D1 /* counterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = counterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F462CAB427DC9041000EB2D1 /* counterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counterTests.swift; sourceTree = "<group>"; };
+		F462CABA27DC9041000EB2D1 /* counterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = counterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F462CABE27DC9041000EB2D1 /* counterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counterTests.swift; sourceTree = "<group>"; };
+		F462CAC027DC9041000EB2D1 /* counterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,9 @@
 		F462CA9727DC903C000EB2D1 = {
 			isa = PBXGroup;
 			children = (
-				F462CAA227DC903C000EB2D1 /* MyFirstApp */,
-				F462CAB327DC9041000EB2D1 /* MyFirstAppTests */,
-				F462CABD27DC9041000EB2D1 /* MyFirstAppUITests */,
+				F462CAA227DC903C000EB2D1 /* counter */,
+				F462CAB327DC9041000EB2D1 /* counterTests */,
+				F462CABD27DC9041000EB2D1 /* counterUITests */,
 				F462CAA127DC903C000EB2D1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +84,22 @@
 		F462CAA127DC903C000EB2D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F462CAA027DC903C000EB2D1 /* MyFirstApp.app */,
-				F462CAB027DC9041000EB2D1 /* MyFirstAppTests.xctest */,
-				F462CABA27DC9041000EB2D1 /* MyFirstAppUITests.xctest */,
+				F462CAA027DC903C000EB2D1 /* counter.app */,
+				F462CAB027DC9041000EB2D1 /* counterTests.xctest */,
+				F462CABA27DC9041000EB2D1 /* counterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F462CAA227DC903C000EB2D1 /* MyFirstApp */ = {
+		F462CAA227DC903C000EB2D1 /* counter */ = {
 			isa = PBXGroup;
 			children = (
-				F462CAA327DC903C000EB2D1 /* MyFirstAppApp.swift */,
+				F462CAA327DC903C000EB2D1 /* counterApp.swift */,
 				F462CAA527DC903C000EB2D1 /* ContentView.swift */,
 				F462CAA727DC9041000EB2D1 /* Assets.xcassets */,
 				F462CAA927DC9041000EB2D1 /* Preview Content */,
 			);
-			path = MyFirstApp;
+			path = counter;
 			sourceTree = "<group>";
 		};
 		F462CAA927DC9041000EB2D1 /* Preview Content */ = {
@@ -110,29 +110,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F462CAB327DC9041000EB2D1 /* MyFirstAppTests */ = {
+		F462CAB327DC9041000EB2D1 /* counterTests */ = {
 			isa = PBXGroup;
 			children = (
-				F462CAB427DC9041000EB2D1 /* MyFirstAppTests.swift */,
+				F462CAB427DC9041000EB2D1 /* counterTests.swift */,
 			);
-			path = MyFirstAppTests;
+			path = counterTests;
 			sourceTree = "<group>";
 		};
-		F462CABD27DC9041000EB2D1 /* MyFirstAppUITests */ = {
+		F462CABD27DC9041000EB2D1 /* counterUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F462CABE27DC9041000EB2D1 /* MyFirstAppUITests.swift */,
-				F462CAC027DC9041000EB2D1 /* MyFirstAppUITestsLaunchTests.swift */,
+				F462CABE27DC9041000EB2D1 /* counterTests.swift */,
+				F462CAC027DC9041000EB2D1 /* counterUITestsLaunchTests.swift */,
 			);
-			path = MyFirstAppUITests;
+			path = counterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F462CA9F27DC903C000EB2D1 /* MyFirstApp */ = {
+		F462CA9F27DC903C000EB2D1 /* counter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F462CAC427DC9041000EB2D1 /* Build configuration list for PBXNativeTarget "MyFirstApp" */;
+			buildConfigurationList = F462CAC427DC9041000EB2D1 /* Build configuration list for PBXNativeTarget "counter" */;
 			buildPhases = (
 				F462CA9C27DC903C000EB2D1 /* Sources */,
 				F462CA9D27DC903C000EB2D1 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = MyFirstApp;
+			name = counter;
 			productName = MyFirstApp;
-			productReference = F462CAA027DC903C000EB2D1 /* MyFirstApp.app */;
+			productReference = F462CAA027DC903C000EB2D1 /* counter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F462CAAF27DC9041000EB2D1 /* MyFirstAppTests */ = {
+		F462CAAF27DC9041000EB2D1 /* counterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F462CAC727DC9041000EB2D1 /* Build configuration list for PBXNativeTarget "MyFirstAppTests" */;
+			buildConfigurationList = F462CAC727DC9041000EB2D1 /* Build configuration list for PBXNativeTarget "counterTests" */;
 			buildPhases = (
 				F462CAAC27DC9041000EB2D1 /* Sources */,
 				F462CAAD27DC9041000EB2D1 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				F462CAB227DC9041000EB2D1 /* PBXTargetDependency */,
 			);
-			name = MyFirstAppTests;
+			name = counterTests;
 			productName = MyFirstAppTests;
-			productReference = F462CAB027DC9041000EB2D1 /* MyFirstAppTests.xctest */;
+			productReference = F462CAB027DC9041000EB2D1 /* counterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F462CAB927DC9041000EB2D1 /* MyFirstAppUITests */ = {
+		F462CAB927DC9041000EB2D1 /* counterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F462CACA27DC9041000EB2D1 /* Build configuration list for PBXNativeTarget "MyFirstAppUITests" */;
+			buildConfigurationList = F462CACA27DC9041000EB2D1 /* Build configuration list for PBXNativeTarget "counterUITests" */;
 			buildPhases = (
 				F462CAB627DC9041000EB2D1 /* Sources */,
 				F462CAB727DC9041000EB2D1 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				F462CABC27DC9041000EB2D1 /* PBXTargetDependency */,
 			);
-			name = MyFirstAppUITests;
+			name = counterUITests;
 			productName = MyFirstAppUITests;
-			productReference = F462CABA27DC9041000EB2D1 /* MyFirstAppUITests.xctest */;
+			productReference = F462CABA27DC9041000EB2D1 /* counterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F462CA9B27DC903C000EB2D1 /* Build configuration list for PBXProject "MyFirstApp" */;
+			buildConfigurationList = F462CA9B27DC903C000EB2D1 /* Build configuration list for PBXProject "counter" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F462CA9F27DC903C000EB2D1 /* MyFirstApp */,
-				F462CAAF27DC9041000EB2D1 /* MyFirstAppTests */,
-				F462CAB927DC9041000EB2D1 /* MyFirstAppUITests */,
+				F462CA9F27DC903C000EB2D1 /* counter */,
+				F462CAAF27DC9041000EB2D1 /* counterTests */,
+				F462CAB927DC9041000EB2D1 /* counterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F462CAA627DC903C000EB2D1 /* ContentView.swift in Sources */,
-				F462CAA427DC903C000EB2D1 /* MyFirstAppApp.swift in Sources */,
+				F462CAA427DC903C000EB2D1 /* counterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F462CAB527DC9041000EB2D1 /* MyFirstAppTests.swift in Sources */,
+				F462CAB527DC9041000EB2D1 /* counterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F462CABF27DC9041000EB2D1 /* MyFirstAppUITests.swift in Sources */,
-				F462CAC127DC9041000EB2D1 /* MyFirstAppUITestsLaunchTests.swift in Sources */,
+				F462CABF27DC9041000EB2D1 /* counterTests.swift in Sources */,
+				F462CAC127DC9041000EB2D1 /* counterUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		F462CAB227DC9041000EB2D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F462CA9F27DC903C000EB2D1 /* MyFirstApp */;
+			target = F462CA9F27DC903C000EB2D1 /* counter */;
 			targetProxy = F462CAB127DC9041000EB2D1 /* PBXContainerItemProxy */;
 		};
 		F462CABC27DC9041000EB2D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F462CA9F27DC903C000EB2D1 /* MyFirstApp */;
+			target = F462CA9F27DC903C000EB2D1 /* counter */;
 			targetProxy = F462CABB27DC9041000EB2D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -431,7 +431,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yoonkyunglee.MyFirstApp;
+				PRODUCT_BUNDLE_IDENTIFIER = yoonkyunglee.counter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -459,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yoonkyunglee.MyFirstApp;
+				PRODUCT_BUNDLE_IDENTIFIER = yoonkyunglee.counter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -482,7 +482,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFirstApp.app/MyFirstApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/counter.app/counter";
 			};
 			name = Debug;
 		};
@@ -501,7 +501,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFirstApp.app/MyFirstApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/counter.app/counter";
 			};
 			name = Release;
 		};
@@ -542,7 +542,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F462CA9B27DC903C000EB2D1 /* Build configuration list for PBXProject "MyFirstApp" */ = {
+		F462CA9B27DC903C000EB2D1 /* Build configuration list for PBXProject "counter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F462CAC227DC9041000EB2D1 /* Debug */,
@@ -551,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F462CAC427DC9041000EB2D1 /* Build configuration list for PBXNativeTarget "MyFirstApp" */ = {
+		F462CAC427DC9041000EB2D1 /* Build configuration list for PBXNativeTarget "counter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F462CAC527DC9041000EB2D1 /* Debug */,
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F462CAC727DC9041000EB2D1 /* Build configuration list for PBXNativeTarget "MyFirstAppTests" */ = {
+		F462CAC727DC9041000EB2D1 /* Build configuration list for PBXNativeTarget "counterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F462CAC827DC9041000EB2D1 /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F462CACA27DC9041000EB2D1 /* Build configuration list for PBXNativeTarget "MyFirstAppUITests" */ = {
+		F462CACA27DC9041000EB2D1 /* Build configuration list for PBXNativeTarget "counterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F462CACB27DC9041000EB2D1 /* Debug */,
